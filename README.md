@@ -1,3 +1,6 @@
+<!-- default badges list -->
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Pivot Grid for WinForms - Customize Cells 
 
 The following example shows how to handle the [PivotGridControl.CustomDrawCell](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomDrawCell) event to paint Pivot Grid cells according to the cell's state (selected or unselected) and the cell's type (data cells or grand total cells).
