@@ -1,9 +1,10 @@
 # Pivot Grid for WinForms - Customize Cells 
 
-
+![Pivot Grid](./images/pivotgrid.png)
 
 ## Files to Look At
 
+[Form1.cs](CS/PivotCustomDraw/Form1.cs)
 
 ## Documentation
 
