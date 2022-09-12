@@ -9,7 +9,7 @@
 
 ## Files to Look At
 
-[Form1.cs](CS/PivotCustomDraw/Form1.cs)
+[Form1.cs](CS/PivotCustomDraw/Form1.cs) / [Form1.vb](VB/PivotCustomDraw/Form1.vb)
 
 ## Documentation
 
