@@ -10,8 +10,7 @@ namespace PivotCustomDraw {
             // Fill the ExcelDataSource
             excelDataSource1.Fill();
         }
-
-        private void pivotGridControl1_CustomDrawCell(object sender, DevExpress.XtraPivotGrid.PivotCustomDrawCellEventArgs e) {
+        private void pivotGridControl1_CustomDrawCell(object sender, PivotCustomDrawCellEventArgs e) {
             Rectangle r;
             // Paints Row Grand Totals.
             if (e.RowValueType == PivotGridValueType.GrandTotal) {
@@ -25,11 +24,9 @@ namespace PivotCustomDraw {
                 e.Handled = true;
                 return;
             }
-
             // Paints the data cells.
             Brush brushFill;
             r = e.Bounds;
-
             if (e.Focused)
                 // Initializes the brush used to paint the focused cell.
                 brushFill = e.GraphicsCache.GetSolidBrush(Color.White);
@@ -46,12 +43,11 @@ namespace PivotCustomDraw {
             e.GraphicsCache.FillRectangle(brushFill, r);
             if (e.Focused) {
                 r.Inflate(-1, -1);
-                e.GraphicsCache.DrawRectangle(e.GraphicsCache.GetPen(ColorTranslator.FromHtml("#f05b41"), 3), r);
-
+                e.GraphicsCache.DrawRectangle(e.GraphicsCache.GetPen(ColorTranslator.FromHtml("#f05b41"),
+                    3), r);
             }
             r.Inflate(-4, -4);
             e.Appearance.DrawString(e.GraphicsCache, e.DisplayText, r);
-
             e.Handled = true;
         }
     }
