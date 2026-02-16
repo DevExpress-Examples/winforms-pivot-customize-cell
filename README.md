@@ -25,7 +25,7 @@ The following image illustrates the resulting UI:
 - [Pivot Grid for WinForms - Change the Field Value Header Background with the CustomDrawFieldValue Event](https://github.com/DevExpress-Examples/how-to-change-the-field-value-header-appearance-backcolor-or-draw-it-manually-e2809)
 - [Pivot Grid for WinForms - Draw a Custom Element when a User Hovering Over Field Value with a Mouse](https://github.com/DevExpress-Examples/how-to-draw-a-custom-element-when-a-user-hovering-over-field-value-with-a-mouse-e2228)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivot-customize-cell&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivot-customize-cell&~~~was_helpful=no)
 
